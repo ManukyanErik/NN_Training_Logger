@@ -1,10 +1,10 @@
 # # Example usage
 from logger import Logger
 
-logger = Logger(email_sender='erik.manukyan.ca@gmail.com', 
-                email_password='zjyoxnpjoilfquff') 
+logger = Logger(email_sender='', 
+                email_password='') 
 
-logger.add_email_receiver("erik.77233211@gmail.com", 'DEBUG', 'INFO')
+logger.add_email_receiver("", 'DEBUG', 'INFO')
 
 import numpy as np
 import tensorflow as tf
